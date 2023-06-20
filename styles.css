@@ -1,9 +1,11 @@
+/* Centers the header */
 .header {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
+/* Formats the title */
 .title {
 	font-family: 'Roboto', sans-serif;
 	font-size: 60px;
@@ -11,6 +13,7 @@
 	text-align: center;
 }
 
+/* Creates a good navigation bar */
 .navigation {
 	display: flex;
 	justify-content: center;
@@ -28,7 +31,7 @@
 }
 
 .navigation li {
-	flex-basis: 0;
+	flex-basis: 0; 
 	flex-grow: 1;
 	margin: 0 10px;
 	text-align: center;
@@ -49,6 +52,7 @@
 	color: #333333;
 }
 
+/* Creates a good dropdown menu*/
 .dropdown {
 	position: relative;
 }
@@ -90,18 +94,22 @@
 	color: #000000; 
 }
 
+/* Moves main down 50 pixels*/
 main {
 	margin-top: 50px; 
 }
 
+/* Italic text */
 .italicized {
 	font-style: italic;
 }
 
+/* Bold text*/
 .bolden {
 	font-weight: bold;
 }
 
+/* Format for heading 2*/
 h2 {
 	font-family: 'Roboto', sans-serif;
 	font-size: 30px;
@@ -110,28 +118,28 @@ h2 {
 	margin-bottom: 20px;
 }
 
+/* Format for paragraph*/
 p {
 	font-size: 20px;
 	font-family: 'Roboto', sans-serif;
 	color: #333;
 }
 
+/* Format for list */
 li {
 	font-size: 20px;
 	font-family: 'Roboto', sans-serif;
 	color: #333;
 }
 
+/* Format for section*/
 section {
 	margin-left: 150px;
 	margin-bottom: 40px;  
 	max-width: 1250px; 
 }
 
-.content {
-	position: relative;
-}
-
+/* Formats for portrait picture*/
 .portrait {
 	position: absolute;
 	top: 300px;
@@ -144,6 +152,7 @@ section {
 	font-size: 16px;
 }
 
+/* Formats for band picture*/
 .band {
 	position: absolute;
 	top: 650px;
@@ -160,6 +169,7 @@ section {
 	font-size: 16px;
 }
 
+/* Formats for table*/
 table {
 	border-collapse: collapse;
 	width: 150%;
@@ -188,18 +198,21 @@ td.centered {
 	text-align: center;
 }
 
+/* Formats for footer*/
 footer {
 	margin-left: 150px;
 	margin-bottom: 40px;  
 	max-width: 1200px; 
 }
 
+/* Formats for mental health video*/
 .mental-health-video {
   position: absolute;
   left: 1425px;
   top: 350px;
 }
 
+/* Formats for mirror picture and caption*/
 .mirror {
 	position: absolute;
 	top: 660px;
@@ -212,6 +225,7 @@ footer {
 	font-size: 16px;
 }
 
+/* Formats for Greenday picture and caption*/
 .greenday {
 	position: absolute;
 	top: 1020px;
@@ -224,6 +238,7 @@ footer {
 	font-size: 16px;
 }
 
+/* Formats for Radiohead picture and caption*/
 .radiohead {
 	position: absolute;
 	top: 1020px;
@@ -235,10 +250,12 @@ footer {
 	font-size: 16px;
 }
 
+/* Formats for the footer on the life page*/
 .lifefooter {
   margin-top: 465px;
 }
 
+/* Formats for the ICIMI Will Wood picture and caption*/
 .icimi-will {
 	position: absolute;
 	top: 325px;
@@ -251,6 +268,7 @@ footer {
 	font-size: 16px;
 }
 
+/* Formats for The Normal Album Will Wood picture and caption*/
 .thenormalalbum-will {
 	position: absolute;
 	top: 1375px;
@@ -263,6 +281,7 @@ footer {
 	font-size: 16px;
 }
 
+/* Formats for the SELF-iSH Will Wood picture and caption*/
 .selfish-will {
 	position: absolute;
 	top: 2240px;
@@ -275,6 +294,7 @@ footer {
 	font-size: 16px;
 }
 
+/* Formats for the EIAL Will Wood picture and caption*/
 .eial-will {
 	position: absolute;
 	top: 3095px;
@@ -287,6 +307,7 @@ footer {
 	font-size: 16px;
 }
 
+/* Formats for The Real Will Wood album cover and caption*/
 .the-real-will-wood {
 	position: absolute;
 	top: 335px;
@@ -299,6 +320,7 @@ footer {
 	font-size: 16px;
 }
 
+/* Formats for The Real Will Wood Will Wood picture and caption*/
 .the-real-will-wood-will {
 	position: absolute;
 	top: 905px;
