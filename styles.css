@@ -1,0 +1,312 @@
+.header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.title {
+	font-family: 'Roboto', sans-serif;
+	font-size: 60px;
+	color: #333;
+	text-align: center;
+}
+
+.navigation {
+	display: flex;
+	justify-content: center;
+	background-color: #A7C6B6;
+	padding: 20px 0;
+}
+
+.navigation ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.navigation li {
+	flex-basis: 0;
+	flex-grow: 1;
+	margin: 0 10px;
+	text-align: center;
+}
+
+.navigation a {
+	display: block;
+	padding: 8px 16px;
+	font-size: 22px;
+	background-color: #D7D0C8;
+	text-decoration: none;
+	color: #333333;
+	font-family: 'Roboto', sans-serif;
+}
+
+.navigation a:hover {
+	background-color: #F1ECE2;
+	color: #333333;
+}
+
+.dropdown {
+	position: relative;
+}
+
+.dropdown:hover .dropdown-menu {
+	display: block;
+}
+
+.dropdown-menu {
+	display: none;
+	position: absolute;
+}
+
+.dropdown:hover .dropdown-menu li {
+	display: block;
+}
+
+.dropdown-menu li {
+	display: none;
+}
+
+.dropdown-menu li:nth-child(1) a:hover {
+	background-color: #000000;
+	color: #b27400;
+}
+
+.dropdown-menu li:nth-child(2) a:hover {
+	background-color: #f6bec9;
+	color: #2349ba;
+}
+
+.dropdown-menu li:nth-child(3) a:hover {
+	background-color: #551a21;	
+	color: #fefefe; 
+}
+
+.dropdown-menu li:nth-child(4) a:hover {
+	background-color: #f5f5f5;	
+	color: #000000; 
+}
+
+main {
+	margin-top: 50px; 
+}
+
+.italicized {
+	font-style: italic;
+}
+
+.bolden {
+	font-weight: bold;
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 20px;
+}
+
+p {
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: #333;
+}
+
+li {
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: #333;
+}
+
+section {
+	margin-left: 150px;
+	margin-bottom: 40px;  
+	max-width: 1250px; 
+}
+
+.content {
+	position: relative;
+}
+
+.portrait {
+	position: absolute;
+	top: 300px;
+	left: 1400px;
+}
+
+.portrait figcaption {
+	font-family: 'Roboto', sans-serif;
+	margin-top: 10px;
+	font-size: 16px;
+}
+
+.band {
+	position: absolute;
+	top: 650px;
+	left: 1400px;
+}
+
+.band img {
+	display: block; 
+}
+
+.band figcaption {
+	font-family: 'Roboto', sans-serif;
+	margin-top: 10px;
+	font-size: 16px;
+}
+
+table {
+	border-collapse: collapse;
+	width: 150%;
+	background-color: #f5ede4;
+	font-family: 'Roboto', sans-serif;
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 8px;
+	text-align: left;
+	font-size: 20px;
+}
+
+table td img {
+	display: block;
+	margin: 0 auto;
+}
+
+td.centered {
+	text-align: center;
+}
+
+footer {
+	margin-left: 150px;
+	margin-bottom: 40px;  
+	max-width: 1200px; 
+}
+
+.mental-health-video {
+  position: absolute;
+  left: 1425px;
+  top: 350px;
+}
+
+.mirror {
+	position: absolute;
+	top: 660px;
+	left: 1390px;
+}
+
+.mirror figcaption {
+	font-family: 'Roboto', sans-serif;
+	margin-top: 10px;
+	font-size: 16px;
+}
+
+.greenday {
+	position: absolute;
+	top: 1020px;
+	left: 120px;
+}
+
+.greenday figcaption {
+	font-family: 'Roboto', sans-serif;
+	margin-top: 10px;
+	font-size: 16px;
+}
+
+.radiohead {
+	position: absolute;
+	top: 1020px;
+	left: 610px;
+}
+.radiohead figcaption {
+	font-family: 'Roboto', sans-serif;
+	margin-top: 10px;
+	font-size: 16px;
+}
+
+.lifefooter {
+  margin-top: 465px;
+}
+
+.icimi-will {
+	position: absolute;
+	top: 325px;
+	left: 1380px;
+}
+
+.icimi-will figcaption {
+	font-family: 'Roboto', sans-serif;
+	margin-top: 10px;
+	font-size: 16px;
+}
+
+.thenormalalbum-will {
+	position: absolute;
+	top: 1375px;
+	left: 1380px;
+}
+
+.thenormalalbum-will figcaption {
+	font-family: 'Roboto', sans-serif;
+	margin-top: 10px;
+	font-size: 16px;
+}
+
+.selfish-will {
+	position: absolute;
+	top: 2240px;
+	left: 1380px;
+}
+
+.selfish-will figcaption {
+	font-family: 'Roboto', sans-serif;
+	margin-top: 10px;
+	font-size: 16px;
+}
+
+.eial-will {
+	position: absolute;
+	top: 3095px;
+	left: 1380px;
+}
+
+.eial-will figcaption {
+	font-family: 'Roboto', sans-serif;
+	margin-top: 10px;
+	font-size: 16px;
+}
+
+.the-real-will-wood {
+	position: absolute;
+	top: 335px;
+	left: 1380px;
+}
+
+.the-real-will-wood figcaption {
+	font-family: 'Roboto', sans-serif;
+	margin-top: 10px;
+	font-size: 16px;
+}
+
+.the-real-will-wood-will {
+	position: absolute;
+	top: 905px;
+	left: 1380px;
+}
+
+.the-real-will-wood-will figcaption {
+	font-family: 'Roboto', sans-serif;
+	margin-top: 10px;
+	font-size: 16px;
+}
